@@ -87,7 +87,7 @@ public class JSONPlaceholderUserDataProvider implements UserDataProvider {
                     user1.setPosts(posts1);
                     return user1;
                 })
-                .subscribeOn(Schedulers.elastic())
+                .subscribeOn(Schedulers.parallel())
                 // cache predicate of mono block
                 .cache();
     }
