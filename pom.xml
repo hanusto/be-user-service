@@ -26,6 +26,7 @@
 
     <modules>
         <module>provider</module>
+        <module>cli</module>
         <module>test</module>
     </modules>
 
