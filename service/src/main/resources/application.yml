@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: user-service
+
+logging:
+  level:
+    root: WARN
+    com.github.hanusto: DEBUG
+    org.springframework.web.reactive.function.client: TRACE
+
+hanusto:
+  user-service:
+    data-provider:
+      baseUrl: https://jsonplaceholder.typicode.com
+      usersRelativePath: users
+      postsRelativePath: posts

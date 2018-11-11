@@ -1,0 +1,6 @@
+{
+  "path": "/profiles/1",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "User not found"
+}
